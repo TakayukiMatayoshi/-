@@ -20,6 +20,8 @@ public class oxpoint : MonoBehaviour
 
     public void oxdown()
     {
+        if (button.sprite != oximage[2]) return;
+
         ox = oxcheak.num;
 
         button.sprite = oximage[ox];
