@@ -172,12 +172,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxcheak: {fileID: 452706477}
+  pointnum: 8
+  oxcheak: {fileID: 637724989}
   oximage:
-  - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
-  - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  button: {fileID: 133372330}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &133372330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,50 +268,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 133372327}
   m_CullTransparentMesh: 0
---- !u!1 &452706476
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 452706478}
-  - component: {fileID: 452706477}
-  m_Layer: 0
-  m_Name: OXset
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &452706477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452706476}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dd6e9aefc7bf3a9419d0b832025d981f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  num: 0
---- !u!4 &452706478
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 452706476}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,12 +402,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxcheak: {fileID: 452706477}
+  pointnum: 5
+  oxcheak: {fileID: 637724989}
   oximage:
-  - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
-  - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  button: {fileID: 574660637}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &574660637
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -553,6 +509,7 @@ GameObject:
   - component: {fileID: 637724986}
   - component: {fileID: 637724988}
   - component: {fileID: 637724987}
+  - component: {fileID: 637724989}
   m_Layer: 5
   m_Name: oxButtonhold
   m_TagString: Untagged
@@ -624,6 +581,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637724985}
   m_CullTransparentMesh: 0
+--- !u!114 &637724989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637724985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6e9aefc7bf3a9419d0b832025d981f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num: 1
+  oxsprite:
+  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
+  - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
+  image:
+  - {fileID: 1266613671}
+  - {fileID: 1460057933}
+  - {fileID: 1239838599}
+  - {fileID: 1027191171}
+  - {fileID: 904860397}
+  - {fileID: 574660637}
+  - {fileID: 2048716697}
+  - {fileID: 1267023683}
+  - {fileID: 133372330}
+  oxnumber: 000000000000000000000000000000000000000000000000000000000000000000000000
 --- !u!1 &904860394
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,12 +660,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxcheak: {fileID: 452706477}
+  pointnum: 4
+  oxcheak: {fileID: 637724989}
   oximage:
-  - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
-  - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  button: {fileID: 904860397}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &904860397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -822,12 +807,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxcheak: {fileID: 452706477}
+  pointnum: 3
+  oxcheak: {fileID: 637724989}
   oximage:
-  - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
-  - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  button: {fileID: 1027191171}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1027191171
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1068,12 +1053,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxcheak: {fileID: 452706477}
+  pointnum: 2
+  oxcheak: {fileID: 637724989}
   oximage:
-  - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
-  - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  button: {fileID: 1239838599}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1239838599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,12 +1290,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxcheak: {fileID: 452706477}
+  pointnum: 0
+  oxcheak: {fileID: 637724989}
   oximage:
-  - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
-  - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  button: {fileID: 1266613671}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &1267023680
 GameObject:
   m_ObjectHideFlags: 0
@@ -1362,12 +1347,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxcheak: {fileID: 452706477}
+  pointnum: 7
+  oxcheak: {fileID: 637724989}
   oximage:
-  - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
-  - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  button: {fileID: 1267023683}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1267023683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1509,12 +1494,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxcheak: {fileID: 452706477}
+  pointnum: 1
+  oxcheak: {fileID: 637724989}
   oximage:
-  - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
-  - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  button: {fileID: 1460057933}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &1460057933
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1656,12 +1641,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  oxcheak: {fileID: 452706477}
+  pointnum: 6
+  oxcheak: {fileID: 637724989}
   oximage:
-  - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
-  - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
-  - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  button: {fileID: 2048716697}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &2048716697
 MonoBehaviour:
   m_ObjectHideFlags: 0

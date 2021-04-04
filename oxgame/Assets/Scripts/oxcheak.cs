@@ -1,29 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class oxcheak : MonoBehaviour
 {
-    bool oxnum = true;
+    bool oxnum;
 
-    public int num;
+    public int num;// 1
 
-    private void Start()
-    {
-        numchange();
-    }
+    public Sprite[] oxsprite;
+    public Image[] image;
+    public int[] oxnumber;
 
-    public void numchange()
+    public void numchange(int n)
     {
         if (oxnum)
         {
-            num = 0;
+            num = 1;
         }
         else
         {
-            num = 1;
+            num = 2;
         }
 
+        oxnumber[n] = num;
         oxnum = !oxnum;
     }
 }
