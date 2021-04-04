@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oxcheak: {fileID: 452706477}
   oximage:
   - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
   - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
@@ -275,6 +276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 452706478}
+  - component: {fileID: 452706477}
   m_Layer: 0
   m_Name: OXset
   m_TagString: Untagged
@@ -282,6 +284,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &452706477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452706476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd6e9aefc7bf3a9419d0b832025d981f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num: 0
 --- !u!4 &452706478
 Transform:
   m_ObjectHideFlags: 0
@@ -430,6 +445,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oxcheak: {fileID: 452706477}
   oximage:
   - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
   - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
@@ -657,6 +673,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oxcheak: {fileID: 452706477}
   oximage:
   - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
   - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
@@ -991,6 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oxcheak: {fileID: 452706477}
   oximage:
   - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
   - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
@@ -1046,6 +1064,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oxcheak: {fileID: 452706477}
   oximage:
   - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
   - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
@@ -1191,6 +1210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oxcheak: {fileID: 452706477}
   oximage:
   - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
   - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
@@ -1336,6 +1356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oxcheak: {fileID: 452706477}
   oximage:
   - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
   - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
@@ -1481,6 +1502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oxcheak: {fileID: 452706477}
   oximage:
   - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
   - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
@@ -1692,6 +1714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c331dec9c19ab4547b3d426456cfca28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  oxcheak: {fileID: 452706477}
   oximage:
   - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
   - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}

@@ -5,25 +5,25 @@ using UnityEngine.UI;
 
 public class oxpoint : MonoBehaviour
 {
-    bool oxnum = true;
+    public oxcheak oxcheak;
 
     public Sprite[] oximage;
 
     public Image button;
 
-    int num;
+    int ox;
+
+    void Start()
+    {
+        oxcheak.GetComponent<oxcheak>();
+    }
 
     public void oxdown()
     {
-        if (oxnum)
-        {
-            num = 0;
-        } else {
-            num = 1;
-        }
+        ox = oxcheak.num;
 
-        button.sprite = oximage[num];
+        button.sprite = oximage[ox];
 
-        oxnum = !oxnum;
+        oxcheak.numchange();
     }
 }
