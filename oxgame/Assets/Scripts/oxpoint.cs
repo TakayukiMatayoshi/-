@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class oxpoint : MonoBehaviour
 {
-    public int pointnum;
+    public int pointnumX;
+    public int pointnumY;
 
     public oxcheak oxcheak;
 
@@ -18,7 +19,7 @@ public class oxpoint : MonoBehaviour
         button = gameObject.GetComponent<Image>();
         oxcheak.GetComponent<oxcheak>();
 
-        for(int i=0;i<oximage.Length; i++)
+        for (int i = 0; i < oximage.Length; i++)
         {
             oximage[i] = oxcheak.oxsprite[i];
         }
@@ -32,6 +33,6 @@ public class oxpoint : MonoBehaviour
 
         button.sprite = oximage[ox];
 
-        oxcheak.numchange(pointnum);
+        oxcheak.numchange(pointnumX);
     }
 }
