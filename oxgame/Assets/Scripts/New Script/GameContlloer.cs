@@ -22,7 +22,7 @@ public class GameContlloer : MonoBehaviour
 
     void Start()
     {
-        camera_object = GameObject.Find("MainCamera").GetComponent<Camera>();
+        camera_object = GameObject.Find("Main Camera").GetComponent<Camera>();
 
         bord = new int[bordsizeX, bordsizeY];
 

@@ -33,6 +33,6 @@ public class oxpoint : MonoBehaviour
 
         button.sprite = oximage[ox];
 
-        oxcheak.numchange(pointnumX);
+        oxcheak.numchange(pointnumX,pointnumY);
     }
 }

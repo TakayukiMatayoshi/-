@@ -600,20 +600,8 @@ MonoBehaviour:
   - {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 21300000, guid: 9b945ef172950274abac73c421710435, type: 3}
   - {fileID: 21300000, guid: e9a13e485c9e56d4096800402b7551c9, type: 3}
-  button: []
-  image:
-  - {fileID: 1266613671}
-  - {fileID: 1460057933}
-  - {fileID: 1239838599}
-  - {fileID: 1027191171}
-  - {fileID: 904860397}
-  - {fileID: 574660637}
-  - {fileID: 2048716697}
-  - {fileID: 1267023683}
-  - {fileID: 133372330}
-  oxnumber: 000000000000000000000000000000000000000000000000000000000000000000000000
-  oxnumX: 0
-  oxnumY: 0
+  oxnumX: 3
+  oxnumY: 3
 --- !u!1 &904860394
 GameObject:
   m_ObjectHideFlags: 0
