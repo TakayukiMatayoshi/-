@@ -13,6 +13,7 @@ public class oxcheak : MonoBehaviour
     public int[,] oxnumber;
     GameObject[] button;
     Image[] image;
+    oxpoint[] oxpoints;
 
     public int oxnumX;
     public int oxnumY;
@@ -26,6 +27,7 @@ public class oxcheak : MonoBehaviour
         oxnumber = new int[oxnumX, oxnumY];
         button = new GameObject[bordsize];
         image = new Image[bordsize];
+        oxpoints = new oxpoint[bordsize];
 
         for (int i = 0; i < bordsize; i++)
         {
@@ -39,11 +41,18 @@ public class oxcheak : MonoBehaviour
 
             button[i] = GameObject.Find("Button" + Startnum);
             image[i] = button[i].GetComponent<Image>();
+            oxpoints[i] = button[i].GetComponent<oxpoint>();
+
+            oxpoints[i].pointnumX = i % 3;
+            oxpoints[i].pointnumY = i / 3;
         }
     }
 
     public void numchange(int X, int Y)
     {
+        oxnumber[X, Y] = num;
+        wincheak();
+
         if (oxnum)
         {
             num = 1;
@@ -51,15 +60,52 @@ public class oxcheak : MonoBehaviour
         {
             num = 2;
         }
-        oxnumber[X, Y] = num;
-        oxnum = !oxnum;
 
-        for (int j = 0; j < oxnumX; j++)
+        oxnum = !oxnum;
+    }
+
+    void wincheak()
+    {
+        int count = 0;
+
+        for (int i = 0; i < oxnumX; i++)
         {
-            for (int k = 0; k < oxnumY; k++)
+            for (int j = 0; j < oxnumY; j++)
             {
-                Debug.Log("[" + j + "," + k + "]=" + oxnumber[j, k]);
+                if (oxnumber[i, j] == num)
+                {
+                    count++;
+                } else
+                {
+                    count = 0;
+                }
+            }
+            if (count == 3)
+            {
+                Debug.Log("win");
+                return;
             }
         }
+
+        for (int i = 0; i < oxnumY; i++)
+        {
+            for (int j = 0; j < oxnumX; j++)
+            {
+                if (oxnumber[j,i] == num)
+                {
+                    count++;
+                } else
+                {
+                    count = 0;
+                }
+            }
+            if (count == 3)
+            {
+                Debug.Log("win");
+                return;
+            }
+        }
+
+
     }
 }
