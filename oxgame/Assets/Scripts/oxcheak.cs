@@ -89,9 +89,9 @@ public class oxcheak : MonoBehaviour
 
         for (int i = 0; i < oxnumY; i++)
         {
-            for (int j = 0; j < oxnumX; j++)
+            for (int j = i; j < oxnumX; j++)
             {
-                if (oxnumber[j,i] == num)
+                if (oxnumber[j, i] == num)
                 {
                     count++;
                 } else
@@ -106,6 +106,46 @@ public class oxcheak : MonoBehaviour
             }
         }
 
+        for (int i = 0; i < oxnumY; i++)
+        {
+            int down = 2;
+            for (int j = i; j < oxnumY; j++)
+            {
+                if (oxnumber[j, down] == num)
+                {
+                    count++;
+                } else
+                {
+                    count = 0;
+                }
+                if (count == 3)
+                {
+                    Debug.Log("win");
+                    return;
+                }
+                down--;
+            }
+        }
 
+        for (int i = 0; i < oxnumX; i++)
+        {
+            int up = 0;
+            for (int j = 0; j < oxnumY; j++)
+            {
+                if (oxnumber[j, up] == num)
+                {
+                    count++;
+                } else
+                {
+                    count = 0;
+                }
+                if (count == 3)
+                {
+                    Debug.Log("win");
+                    return;
+                }
+                up++;
+            }
+        }
     }
 }
